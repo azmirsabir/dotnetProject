@@ -1,0 +1,31 @@
+2025-05-31 09:57:16.663 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-05-31 09:57:17.650 +03:00 [INF] HTTP Request/Response Info: {"Method":"POST","Path":"/Auth/login","StatusCode":401,"Duration":930,"RequestBody":"{\"username\":\"user@example.com\",\"password\":\"***\"}","ResponseBody":"Invalid username or password"}
+{"@t":"2025-05-31T06:57:59.2214990Z","@mt":"Failed to determine the https port for redirect.","@l":"Warning","@tr":"cc7c7cfbbb3bd0662ab29aa8ccb08b4c","@sp":"e7e28a07f008654b","EventId":{"Id":3,"Name":"FailedToDeterminePort"},"SourceContext":"Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware","RequestId":"0HND021T7V86F:00000001","RequestPath":"/Auth/login","ConnectionId":"0HND021T7V86F"}
+{"@t":"2025-05-31T06:58:00.1754480Z","@mt":"HTTP Request/Response Info: {@LogInfo}","@tr":"cc7c7cfbbb3bd0662ab29aa8ccb08b4c","@sp":"e7e28a07f008654b","LogInfo":{"Method":"POST","Path":"/Auth/login","StatusCode":401,"Duration":907,"RequestBody":"{\"username\":\"user@example.com\",\"password\":\"***\"}","ResponseBody":"Invalid username or password"},"SourceContext":"Bookstore.Middlewares.LoggingMiddleware","RequestId":"0HND021T7V86F:00000001","RequestPath":"/Auth/login","ConnectionId":"0HND021T7V86F"}
+2025-05-31 10:03:14.904 +03:00 [INF] Now listening on: http://localhost:5290
+2025-05-31 10:03:14.939 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-31 10:03:14.939 +03:00 [INF] Hosting environment: Development
+2025-05-31 10:03:14.939 +03:00 [INF] Content root path: /Users/jihad/RiderProjects/Bookstore/Bookstore
+2025-05-31 10:03:16.883 +03:00 [INF] Application is shutting down...
+2025-05-31 10:03:18.925 +03:00 [INF] Now listening on: http://localhost:5290
+2025-05-31 10:03:18.952 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-31 10:03:18.952 +03:00 [INF] Hosting environment: Development
+2025-05-31 10:03:18.952 +03:00 [INF] Content root path: /Users/jihad/RiderProjects/Bookstore/Bookstore
+2025-05-31 10:03:22.546 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-05-31 10:03:23.506 +03:00 [INF] HTTP Request/Response Info: {"Method":"POST","Path":"/Auth/login","StatusCode":401,"Duration":937,"RequestBody":"{\"username\":\"user@example.com\",\"password\":\"***\"}","ResponseBody":"Invalid username or password"}
+2025-05-31 10:04:13.600 +03:00 [INF] Application is shutting down...
+2025-05-31 10:04:15.654 +03:00 [INF] Now listening on: http://localhost:5290
+2025-05-31 10:04:15.680 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-31 10:04:15.681 +03:00 [INF] Hosting environment: Development
+2025-05-31 10:04:15.681 +03:00 [INF] Content root path: /Users/jihad/RiderProjects/Bookstore/Bookstore
+2025-05-31 10:05:33.856 +03:00 [INF] Application is shutting down...
+2025-05-31 10:05:35.802 +03:00 [INF] Now listening on: http://localhost:5290
+2025-05-31 10:05:35.833 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-31 10:05:35.833 +03:00 [INF] Hosting environment: Development
+2025-05-31 10:05:35.833 +03:00 [INF] Content root path: /Users/jihad/RiderProjects/Bookstore/Bookstore
+2025-05-31 10:08:12.905 +03:00 [INF] Application is shutting down...
+2025-05-31 10:08:15.459 +03:00 [INF] Now listening on: http://localhost:5290
+2025-05-31 10:08:15.490 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-05-31 10:08:15.490 +03:00 [INF] Hosting environment: Development
+2025-05-31 10:08:15.490 +03:00 [INF] Content root path: /Users/jihad/RiderProjects/Bookstore/Bookstore
+2025-05-31 10:19:57.948 +03:00 [INF] Application is shutting down...

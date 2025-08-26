@@ -1,0 +1,6 @@
+﻿services:
+  learning:
+    image: learning
+    build:
+      context: .
+      dockerfile: learning/Dockerfile
