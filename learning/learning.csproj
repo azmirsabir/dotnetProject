@@ -30,14 +30,10 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Content Include="..\.dockerignore">
-        <Link>.dockerignore</Link>
-      </Content>
-    </ItemGroup>
-
-    <ItemGroup>
-      <Folder Include="Logs\" />
-      <Folder Include="wwwroot\" />
+      <Folder Include="Src\WebApi\wwwroot\" />
+      <Folder Include="Src\Application\Interface\Repository\" />
+      <Folder Include="Src\Infrastructure\Persistence\Repository\" />
+      <Folder Include="Src\Logs\" />
     </ItemGroup>
 
     <ItemGroup>
@@ -46,6 +42,12 @@
       <_ContentIncludedByDefault Remove="DemoSwaggerAnnotation\obj\DemoSwaggerAnnotation.csproj.nuget.dgspec.json" />
       <_ContentIncludedByDefault Remove="DemoSwaggerAnnotation\obj\project.assets.json" />
       <_ContentIncludedByDefault Remove="DemoSwaggerAnnotation\Properties\launchSettings.json" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="..\.dockerignore">
+        <Link>.dockerignore</Link>
+      </Content>
     </ItemGroup>
 
 </Project>

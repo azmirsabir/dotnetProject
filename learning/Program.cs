@@ -1,7 +1,7 @@
 using System.Text.Json.Serialization;
-using learning.Exceptions;
-using learning.Middlewares;
-using learning.Extensions;
+using learning.Domain.Exceptions;
+using learning.SharedKernel.Extensions;
+using learning.WebApi.Middlewares;
 using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);

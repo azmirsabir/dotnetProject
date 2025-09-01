@@ -8,7 +8,48 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1971f133-6b11-439d-8cf6-495d3826093a" name="Changes" comment="init" />
+    <list default="true" id="1971f133-6b11-439d-8cf6-495d3826093a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.learning/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.learning/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learning/Controllers/AuthController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/learning/Src/WebApi/Controllers/AuthController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learning/Controllers/UserController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/learning/Src/WebApi/Controllers/UserController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learning/Data/ApplicationDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/learning/Src/Infrastructure/Persistence/Data/ApplicationDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learning/Data/Seeders/DBSeeder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/learning/Src/Infrastructure/Persistence/Data/Seeders/DBSeeder.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learning/Entities/BaseEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/learning/Src/Domain/Entities/BaseEntity.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learning/Entities/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/learning/Src/Domain/Entities/User.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learning/Exceptions/CustomException.cs" beforeDir="false" afterPath="$PROJECT_DIR$/learning/Src/Domain/Exceptions/CustomException.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learning/Exceptions/GlobalExceptionHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/learning/Src/Domain/Exceptions/GlobalExceptionHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learning/Exceptions/NotFoundException.cs" beforeDir="false" afterPath="$PROJECT_DIR$/learning/Src/Domain/Exceptions/NotFoundException.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learning/Extensions/AuthExtension.cs" beforeDir="false" afterPath="$PROJECT_DIR$/learning/Src/SharedKernel/Extensions/AuthExtension.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learning/Extensions/CorsExtension.cs" beforeDir="false" afterPath="$PROJECT_DIR$/learning/Src/SharedKernel/Extensions/CorsExtension.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learning/Extensions/MigrationManagerExtension.cs" beforeDir="false" afterPath="$PROJECT_DIR$/learning/Src/SharedKernel/Extensions/MigrationManagerExtension.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learning/Extensions/QueryableExtension.cs" beforeDir="false" afterPath="$PROJECT_DIR$/learning/Src/SharedKernel/Extensions/QueryableExtension.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learning/Extensions/RateLimiterExtension.cs" beforeDir="false" afterPath="$PROJECT_DIR$/learning/Src/SharedKernel/Extensions/RateLimiterExtension.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learning/Extensions/ServiceCollectionExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/learning/Src/SharedKernel/Extensions/ServiceCollectionExtensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learning/Extensions/SwaggerServiceExtension.cs" beforeDir="false" afterPath="$PROJECT_DIR$/learning/Src/SharedKernel/Extensions/SwaggerServiceExtension.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learning/Helpers/JWT.cs" beforeDir="false" afterPath="$PROJECT_DIR$/learning/Src/SharedKernel/Helpers/JWT.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learning/Middlewares/LoggingMiddleware.cs" beforeDir="false" afterPath="$PROJECT_DIR$/learning/Src/WebApi/Middlewares/LoggingMiddleware.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learning/Migrations/20250531185554_init.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/learning/Src/Infrastructure/Persistence/Migrations/20250531185554_init.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learning/Migrations/20250531185554_init.cs" beforeDir="false" afterPath="$PROJECT_DIR$/learning/Src/Infrastructure/Persistence/Migrations/20250531185554_init.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learning/Migrations/20250601200857_addUserRole.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/learning/Src/Infrastructure/Persistence/Migrations/20250601200857_addUserRole.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learning/Migrations/20250601200857_addUserRole.cs" beforeDir="false" afterPath="$PROJECT_DIR$/learning/Src/Infrastructure/Persistence/Migrations/20250601200857_addUserRole.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learning/Migrations/20250601203509_addRefreshTokens.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/learning/Src/Infrastructure/Persistence/Migrations/20250601203509_addRefreshTokens.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learning/Migrations/20250601203509_addRefreshTokens.cs" beforeDir="false" afterPath="$PROJECT_DIR$/learning/Src/Infrastructure/Persistence/Migrations/20250601203509_addRefreshTokens.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learning/Migrations/ApplicationDbContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/learning/Src/Infrastructure/Persistence/Migrations/ApplicationDbContextModelSnapshot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learning/Model/DTOs/LoginRequest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/learning/Src/Application/Model/DTOs/LoginRequest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learning/Model/DTOs/QueryParameters.cs" beforeDir="false" afterPath="$PROJECT_DIR$/learning/Src/Application/Model/DTOs/QueryParameters.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learning/Model/DTOs/RefreshTokenRequest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/learning/Src/Application/Model/DTOs/RefreshTokenRequest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learning/Model/DTOs/UserDto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/learning/Src/Application/Model/DTOs/UserDto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learning/Model/PaymentMethod.cs" beforeDir="false" afterPath="$PROJECT_DIR$/learning/Src/Domain/Enum/PaymentMethod.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learning/Model/Response/LoginResponse.cs" beforeDir="false" afterPath="$PROJECT_DIR$/learning/Src/Application/Model/Response/LoginResponse.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learning/Model/Response/PaginatedResult.cs" beforeDir="false" afterPath="$PROJECT_DIR$/learning/Src/Application/Model/Response/PaginatedResult.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learning/Model/Response/Response.cs" beforeDir="false" afterPath="$PROJECT_DIR$/learning/Src/Application/Model/Response/Response.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learning/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/learning/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learning/Services/AuthService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/learning/Src/Infrastructure/Service/AuthService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learning/Services/Interfaces/IAuthService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/learning/Src/Application/Interface/Service/IAuthService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learning/Services/Interfaces/IUserService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/learning/Src/Application/Interface/Service/IUserService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learning/Services/UserService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/learning/Src/Infrastructure/Service/UserService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learning/learning.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/learning/learning.csproj" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,39 +58,45 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "azmirsabir"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;azmirsabir&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/azmirsabir/dotnetProject.git",
-    "accountId": "cc63a2ec-a6b2-405e-b20d-40662de70d6b"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/azmirsabir/dotnetProject.git&quot;,
+    &quot;accountId&quot;: &quot;cc63a2ec-a6b2-405e-b20d-40662de70d6b&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/learning/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/learning/appsettings.Development.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/learning/appsettings.json" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="31pB6ieJMmNzlSkRaeCVL7eKRYj" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Launch Settings Profile.learning: http.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Launch Settings Profile.learning: http.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.learning: http">
     <configuration name="learning: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/learning/learning.csproj" />
@@ -63,7 +110,7 @@
       <option name="SEND_DEBUG_REQUEST" value="1" />
       <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
       <method v="2">
-        <option name="Build" />
+        <option name="Build" default="false" projectName="learning" projectPath="$PROJECT_DIR$/learning/learning.csproj" />
       </method>
     </configuration>
     <configuration name="learning: https" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
@@ -90,7 +137,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1756210959405</updated>
-      <workItem from="1756210961065" duration="1953000" />
+      <workItem from="1756210961065" duration="2423000" />
+      <workItem from="1756709300640" duration="3934000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />
@@ -108,12 +156,21 @@
       <option name="project" value="LOCAL" />
       <updated>1756212908126</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="init">
+      <option name="closed" value="true" />
+      <created>1756213219695</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1756213219695</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
